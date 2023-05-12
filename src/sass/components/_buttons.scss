@@ -23,7 +23,8 @@
 
 /* Hero Style */
 .cta-btn--hero {
-  @include supportColorForIE11();
+  // @include supportColorForIE11();
+  color: #8d56d1;
   border-width: 2px;
   border-style: solid;
   -moz-border-image: -moz-linear-gradient(

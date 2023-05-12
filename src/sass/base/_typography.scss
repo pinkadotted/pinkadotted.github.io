@@ -39,7 +39,8 @@ a:hover {
 }
 
 .text-color-main {
-  @include supportColorForIE11();
+  // @include supportColorForIE11();
+  color: #8d56d1;
 
   // Responsive text purple style
   @include respond(phone) {
